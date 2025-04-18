@@ -1,0 +1,3 @@
+C:/Users/lzy46/Desktop/COP 3503C/Lab 4- Stacks and Queues/cmake-build-debug/CMakeFiles/Lab_4__Stacks_and_Queues.dir
+C:/Users/lzy46/Desktop/COP 3503C/Lab 4- Stacks and Queues/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/lzy46/Desktop/COP 3503C/Lab 4- Stacks and Queues/cmake-build-debug/CMakeFiles/rebuild_cache.dir

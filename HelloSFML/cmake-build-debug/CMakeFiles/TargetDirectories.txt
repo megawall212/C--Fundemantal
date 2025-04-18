@@ -1,0 +1,3 @@
+C:/Users/lzy46/Desktop/COP 3503C/HelloSFML/cmake-build-debug/CMakeFiles/HelloSFML.dir
+C:/Users/lzy46/Desktop/COP 3503C/HelloSFML/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/lzy46/Desktop/COP 3503C/HelloSFML/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+C:/Users/lzy46/Desktop/COP 3503C/Lab 5-Binary File IO/cmake-build-debug/CMakeFiles/Lab_5_Binary_File_IO.dir
+C:/Users/lzy46/Desktop/COP 3503C/Lab 5-Binary File IO/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/lzy46/Desktop/COP 3503C/Lab 5-Binary File IO/cmake-build-debug/CMakeFiles/rebuild_cache.dir

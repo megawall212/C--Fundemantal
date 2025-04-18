@@ -1,0 +1,5 @@
+# ninja log v6
+7	663	7658503928708243	CMakeFiles/HelloSFML.dir/main.cpp.obj	79de81c9d05b81fa
+5	522	7658504051667578	CMakeFiles/HelloSFML.dir/WelcomeWindow.cpp.obj	272899edacc927b0
+3	404	7659253589982216	build.ninja	5a8dbb54ba4ce2eb
+696	817	7658503935606118	HelloSFML.exe	5eb66443cd980e41

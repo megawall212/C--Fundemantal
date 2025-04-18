@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CLionExternalBuildManager">
+    <target id="639366a9-61e9-4923-a3dd-cb96954b0e59" name="Makefile Build" defaultType="TOOL">
+      <configuration id="a7d16a3e-16dd-476b-8c86-742bfcbba4ab" name="Makefile Build">
+        <build type="TOOL">
+          <tool actionId="Tool_External Tools_make build" />
+        </build>
+        <clean type="TOOL">
+          <tool actionId="Tool_External Tools_make clean" />
+        </clean>
+      </configuration>
+    </target>
+    <target id="e40d935f-cc22-4501-856d-6a8fae7cfded" name="Unnamed" defaultType="TOOL">
+      <configuration id="1cc61cec-9e38-4b0d-b5f7-2ca148025fe1" name="Unnamed" />
+    </target>
+  </component>
+</project>

@@ -11,29 +11,30 @@
 
 class gamewindow {
 public:
-    // Constructor - creates window with specified dimensions and player name
+    // Constructor - creates window with config  dimensions and player name
+
     gamewindow(int width, int height, const std::string& playerName);
 
     // Main game loop
     void run();
 
 private:
-    // Core game functions
+    // List all the core game functions
     void handleEvents();       // Handles user input
     void render();             // Draws all game elements
     void loadTextures();       // Loads all required textures
-    void setupBoard();         // Initializes game board
+    void setupBoard();         // Initializes the game board
     void placeMines();         // Randomly places mines
     void calculateAdjacentMines(); // Calculates adjacent mines for each tile
-    void handleMouseClick(sf::Vector2f mousePos, sf::Mouse::Button button); // Processes mouse clicks
+    void handleMouseClick(sf::Vector2f mousePos, sf::Mouse::Button button); // Handle mouse clicks
     void revealTile(int x, int y); // Reveals tile and handles recursive reveal
-    void revealAllMines();     // Reveals all mines (game over)
+    void revealAllMines();     // Reveals all mines (when game's  over)
     void checkWinCondition();  // Checks if player has won
     void resetGame();          // Resets game to initial state
     void updateCounter();      // Updates mine counter display
     void updateTimer();        // Updates game timer display
     void drawButtons();        // Draws all UI buttons
-    void drawTimer();    // Draws the MM:SS game timer
+    void drawTimer();    // Draws the game timer
     void drawCounter();  // Draws the mine counter (mines remaining)
 
 
@@ -63,7 +64,7 @@ private:
     std::chrono::time_point<std::chrono::high_resolution_clock> startTime;
     int elapsedSeconds;
 
-    // FIXED: Added pause support
+    // I keep getting errors here:
     bool isPausedTimer = false;
     std::chrono::time_point<std::chrono::high_resolution_clock> pauseStartTime;
 

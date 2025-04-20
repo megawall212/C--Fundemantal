@@ -25,6 +25,9 @@ int main() {
 
 */
 
+// everything above was from part I (only for SFML functionality)
+//everything below is just for welcomewindow (also to run the gamewindow)
+
 #include "WelcomeWindow.h"
 #include "gamewindow.h"
 
@@ -42,7 +45,7 @@ int main() {
     if (!playerName.empty()) {
         // Read dimensions from config file
         ifstream configFile("files/config.cfg");
-        int width = 800, height = 612;  // Default values if config fails
+        int width = 800, height = 612;  // Default values of UI window if my config fails
 
         if (configFile.is_open()) {
             int cols, rows, mines;

@@ -23,7 +23,7 @@ public:
     void handleEvent(const sf::Event& event);
     void addEntry(const std::string& name, int time);
 
-    sf::RenderWindow window; // <- Needs to be public to handle draw loop from gamewindow
+    sf::RenderWindow window; // Debug: It needs to be public to handle draw loop from gamewindow
 
 private:
     sf::Font font;

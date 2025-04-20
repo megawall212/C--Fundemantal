@@ -76,7 +76,7 @@ void Leaderboard::loadScores() {
         std::string name;
         int time;
 
-        //line = 07:01,Alex
+        //line = 07:01,Alex (just for debugging)
 
         string minutes;
         string seconds;
@@ -88,6 +88,8 @@ void Leaderboard::loadScores() {
         time = stoi(minutes)*60 + stoi(seconds);
 
         scores.emplace_back(time, name);
+
+        // Debug: the erase function isn't working here so I commented it out
 
         /*
         if (ss >> time && getline(ss, name)) {

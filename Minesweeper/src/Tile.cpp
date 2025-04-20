@@ -97,17 +97,18 @@ void Tile::draw(sf::RenderWindow& window, bool debugMode, bool pauseMode) {
 
     // If tile is revealed and has number
     if (state == REVEALED && !mine && adjacentMines > 0) {
-        window.draw(overlaySprite);  // This should be number_#.png
+        window.draw(overlaySprite);
     }
 
-    // Debug: Show mine if hidden but debug mode is active
+    // Debug: Show mine if hidden
+    // Well, but it doesn't matter in this project
     if (debugMode && mine && state != REVEALED) {
-        window.draw(overlaySprite);  // This should be mine.png
+        window.draw(overlaySprite);
+
+        if (pauseMode) {
+            window.draw(tile_revealed);
+        }
+
+
     }
-
-    if (pauseMode) {
-        window.draw(tile_revealed);
-    }
-
-
 }

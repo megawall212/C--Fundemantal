@@ -14,7 +14,7 @@ public:
     // Constructor
     Tile();
 
-    // Positioning
+
     void setPosition(float x, float y);
 
     // Gameplay state
@@ -37,10 +37,10 @@ public:
     void setTileRevealedTexture(const sf::Texture& texture);
     void clearOverlay();
 
-    // Pause support
-    void saveCurrentState();     // Save state before pause
-    void restoreSavedState();    // Restore state after unpausing
-    void forceRevealVisualOnly(const sf::Texture& revealTexture); // Force revealed visuals
+    // Pause
+    void saveCurrentState();     // Save game state before pause
+    void restoreSavedState();    // Restore state after unpausing the game
+    void forceRevealVisualOnly(const sf::Texture& revealTexture); //  revealed visuals
 
 private:
     // Visuals

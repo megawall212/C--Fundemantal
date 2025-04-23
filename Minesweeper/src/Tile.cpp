@@ -104,11 +104,10 @@ void Tile::draw(sf::RenderWindow& window, bool debugMode, bool pauseMode) {
     // Well, but it doesn't matter in this project
     if (debugMode && mine && state != REVEALED) {
         window.draw(overlaySprite);
-
-        if (pauseMode) {
-            window.draw(tile_revealed);
-        }
-
-
     }
+
+    if (pauseMode) {
+        window.draw(tile_revealed);
+    }
+    
 }

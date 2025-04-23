@@ -13,7 +13,11 @@ WelcomeWindow::WelcomeWindow()
 
     //SFML window
 
-    window.create(sf::VideoMode(800, 612), "Minesweeper", sf::Style::Close);
+    std::ifstream file("files/config.cfg");
+    int cols, rows;
+    file >> cols >> rows;
+
+    window.create(sf::VideoMode(cols*32, rows*32+100), "Minesweeper", sf::Style::Close);
 
     // Welcome and Title text required
 

@@ -6,7 +6,9 @@ This repository contains my work from **Programming Fundamentals 2 (C++)** at th
 
 ## In-person lecture slides - [Slides](slides)
 
-## 📝 Labs
+---
+
+## 📝 Labs:
 
 ### Lab 2
 - **Part 1:** 🚗 Implementing a Vehicle class with required attributes and functions (make, model, year, price, mileage)  

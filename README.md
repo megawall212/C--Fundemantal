@@ -4,7 +4,7 @@ This repository contains my work from **Programming Fundamentals 2 (C++)** at th
 
 ---
 
-## [Slides] (slides)
+## [Slides](slides)
 
 ## 📝 Labs
 

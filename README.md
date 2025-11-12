@@ -36,28 +36,25 @@ This repository contains my work from **Programming Fundamentals 2 (C++)** at th
 
 ## 🚀 Projects
 
-### 🔗 Project 1 – Linked Lists
+### 🔗 Project 1 – [Linked Lists](Project%201-Linked%20Lists)
 - Implement a **Linked List class** in C++ with all standard list behaviors  
 - Must include construction, destruction, copy constructor, assignment operator, accessors, insertions, removals, and operators  
 - Support printing forward/reverse (recursive/iterative), node counting, searching (FindAll, Find), indexed access, and exception handling  
 - **Special focus:** Complete implementation of dynamic memory management ("Big Three"), recursive printing, and robust API  
-[attached_file:7]
 
-### 🖼️ Project 2 – Image Processing (TGA Manipulation)
+### 🖼️ Project 2 – [Image Processing (Spring 2024)](Image%20Processing%20Spring%202024)
 - Command-line program for binary **TGA image file manipulation**  
 - Two milestones:  
   - **Milestone 1:** Implement algorithms for pixel-wise image blending, channel adjustment, splitting/composing images, flipping, clamping, and rounding  
   - **Milestone 2:** Build a user-friendly CLI supporting multiple operations, chaining, and robust error/help messaging  
 - **Special focus:** File format mastery, algorithmic pixel manipulation, Makefile/automation, robust error handling  
-[attached_file:5]
 
-### 💣 Project 3 – Minesweeper Game (SFML GUI)
+### 💣 Project 3 – [Minesweeper](Minesweeper)
 - Complete GUI-based **Minesweeper game** using C++ and SFML  
 - Three windows: Welcome (name input/validation), Game (full Minesweeper logic, tile reveal/flagging, restart, pause/debug, timer, leaderboard access), Leaderboard (top scores display, leaderboard saving)  
 - Features include dynamic board sizing/configuration, mine/flag counter (can go negative), timer, strict input validation, mouse-driven controls, file IO for saved scores  
 - Multiple development milestones, Makefile build, required README with full project metadata  
 - **Special focus:** Object-oriented design, asset management, event-driven programming, graphical interface with robust state handling  
-[attached_file:6]
 
 ---
 
